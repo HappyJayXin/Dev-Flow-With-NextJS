@@ -3,7 +3,7 @@ import { HeaderContainer, Container, Logo, Links, LinkItem } from './styled';
 const Header = () => (
   <HeaderContainer>
     <Container>
-      <Logo href="#">
+      <Logo href="/">
         愛情 <b>摩天輪</b>
       </Logo>
       <Links>
