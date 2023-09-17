@@ -47,15 +47,6 @@ export const Info = styled.div`
     margin-bottom: 30px;
   }
 
-  button {
-    border: none;
-    cursor: pointer;
-		border-radius: 20px;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #6c63ff;
-  }
-
   @media (max-width: 768px) {
     padding-right: 0;
 		text-align: center;

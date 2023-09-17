@@ -64,17 +64,6 @@ export const LinkItem = styled.li`
   cursor: pointer;
   transition: 0.3s;
 
-  &:last-child {
-    border-radius: 20px;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #6c63ff;
-  }
-
-  &:not(:last-child):hover {
-    color: #6c63ff;
-  }
-
   @media (max-width: 767px) {
     margin-left: auto;
   }

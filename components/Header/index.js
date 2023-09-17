@@ -1,3 +1,4 @@
+import Button from '../Button';
 import { HeaderContainer, Container, Logo, Links, LinkItem } from './styled';
 
 const Header = () => (
@@ -11,7 +12,9 @@ const Header = () => (
         <LinkItem>會員專區</LinkItem>
         <LinkItem>活動日程</LinkItem>
         <LinkItem>關於我們</LinkItem>
-        <LinkItem>立即購票</LinkItem>
+        <LinkItem>
+          <Button>立即購票</Button>
+        </LinkItem>
       </Links>
     </Container>
   </HeaderContainer>
