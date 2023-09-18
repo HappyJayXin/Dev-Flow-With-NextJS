@@ -1,6 +1,6 @@
 'use client';
 
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 export const ContentContainer = styled.div`
   padding: 50px;
@@ -61,19 +61,7 @@ export const ImageWrapper = styled.div`
   }
 `;
 
-const fadeIn = keyframes`
-	from {
-		opacity: 0;
-		transform: translateX(-50px);
-	}
-	to {
-		opacity: 1;
-		transform: translateX(0);
-	}
-`;
-
 export const Image = styled.img`
   max-width: 100%;
   height: auto;
-	animation: ${fadeIn} 1s ease-in-out;
 `;
